@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drew Mahadi - Contact</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contect us.css">
+</head>
+<body>
+
+    <!-- 1. NAVIGATION BAR (Top) -->
+    <nav class="navbar">
+        <div class="logo">Drew Mahadi</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="pro.html">Portfolio</a></li>
+            <li><a href="#">Master Class</a></li>
+            <li><a href="contect us.html" class="active">Contact Us</a></li>
+            <li><a href="about.html">About Us</a></li>  <br>         
+        </ul>
+        <li><a href="#" class="login-btn-1">Register / Login</a></li>
+       
+    </nav>
+
+    <!-- 2. MAIN CONTENT (Below Nav) -->
+    <section class="content-area">
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            
+            <!-- Web3Forms Handler -->
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="777d26e5-7f87-42cd-b62f-515d5f28f322">
+
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="input-group">
+                    <textarea name="message" placeholder="number and message" required></textarea>
+                </div>
+
+                <button type="submit">Submit Form</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
